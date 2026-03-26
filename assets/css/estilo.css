@@ -1,3 +1,4 @@
+@import url("cabecalho.css");
 @import url("cartao.css");
 
 * {
@@ -16,18 +17,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  /* border: 0.1rem solid red; */
-  background-color: #252323;
-  color: #ccc;
-  height: 2rem;
-  padding: 0.5rem;
-  display: flex;
-  /* justify-content: center; */
-  align-content: center;
-  align-items: center;
 }
 
 section {
