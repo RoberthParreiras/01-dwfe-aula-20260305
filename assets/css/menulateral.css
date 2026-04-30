@@ -1,6 +1,6 @@
 nav {
   /* border: 0.1rem solid orangered; */
-  width: 8rem;
+  width: 15rem;
   background-color: #eee;
   padding: .5rem;
 }
@@ -49,4 +49,8 @@ li {
     text-align: right;
     opacity: 0;
     transition: opacity 0.3s ease-in;
+}
+
+.menu-oculto {
+    display: none;
 }

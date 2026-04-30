@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Minha Primeira Pagina
+	</title>
+	<link rel="stylesheet" href="./assets/css/estilo.css">
+	<script src="https://kit.fontawesome.com/2bb9939eec.js" crossorigin="anonymous"></script>
+	<script src="./assets/js/menu-hamburguer.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo">R</div>
+		<h1 class="titulo">Meu site de notícias</h1>
+		<div class="menu-hamburguer" onclick="altenarVisualizacaodoMenuLateral()">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+	<section>
+		<nav>
+			<ul class="menu-lateral">
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone-inicial">
+								<i class="fa-solid fa-newspaper"></i>
+							</div>
+							<div class="rotulo">Notícia</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone-inicial">
+								<i class="fa-solid fa-envelope"></i>
+							</div>
+							<div class="rotulo">Mensagem</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone-inicial">
+								<i class="fa-solid fa-user"></i>
+							</div>
+							<div class="rotulo">Perfil</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<div class="opcao">
+							<div class="icone-inicial">
+								<i class="fa-solid fa-arrow-right-from-bracket"></i>
+							</div>
+							<div class="rotulo">Sair</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<main id="noticias" class="container">
+			<div class="cartao">
+				<img src="./assets/img/mobilidade.webp" alt="onibus 305" class="imagem-do-cartao">
+				<section class="corpo-do-cartao">
+					<h1 class="titulo-da-noticia">Mobilidade Urbana em BH</h1>
+					<p class="classificacao">
+						<span class="categoria-da-noticia">Transporte</span>
+						<span class="data-da-noticia">05/03/2026</span>
+					</p>
+					<p class="descricao-da-noticia">Prefeitura lança novos ônibus da linha 305</p>
+					<p class="autoria-da-noticia">Ana Maria Pires</p>
+				</section>
+				<a class="botao-do-cartao" href="#">Leia mais</a>
+			</div>
+			<div class="cartao">
+				<img src="./assets/img/puc-barreiro.jpg" alt="prédio da puc" class="imagem-do-cartao">
+				<section class="corpo-do-cartao">
+					<h1 class="titulo-da-noticia">Bolsas de Estudo</h1>
+					<p class="classificacao">
+						<span class="categoria-da-noticia">Educação</span>
+						<span class="data-da-noticia">20/03/2026</span>
+					</p>
+					<p class="descricao-da-noticia">Puc Barreiro oferece bolsas integrais e parciais</p>
+					<p class="autoria-da-noticia">João Martins da Silva</p>
+				</section>
+				<a class="botao-do-cartao" href="#">Leia mais</a>
+			</div>
+			<div class="cartao">
+				<img src="./assets/img/metro-barreiro.jpg" alt="linha de metrô" class="imagem-do-cartao">
+				<section class="corpo-do-cartao">
+					<h1 class="titulo-da-noticia">Metrô chega ao Barreiro</h1>
+					<p class="classificacao">
+						<span class="categoria-da-noticia">Transporte</span>
+						<span class="data-da-noticia">01/02/2026</span>
+					</p>
+					<p class="descricao-da-noticia">Depois de anos, finalmente o Barreiro terá seu metrô</p>
+					<p class="autoria-da-noticia">Rosangela Andrade</p>
+				</section>
+				<a class="botao-do-cartao" href="#">Leia mais</a>
+			</div>
+			<div class="cartao">
+				<img src="./assets/img/tereza-cristina.JPG" alt="avenida tereza cristina" class="imagem-do-cartao">
+				<section class="corpo-do-cartao">
+					<h1 class="titulo-da-noticia">Ampliamento de faixas</h1>
+					<p class="classificacao">
+						<span class="categoria-da-noticia">Transporte</span>
+						<span class="data-da-noticia">26/01/2026</span>
+					</p>
+					<p class="descricao-da-noticia">Avenida Tereza Cristina será alargada no Barreiro</p>
+					<p class="autoria-da-noticia">Romario Neves</p>
+				</section>
+				<a class="botao-do-cartao" href="#">Leia mais</a>
+			</div>
+		</main>
+	</section>
+	<footer>
+		&copy; Rodapé 👌
+	</footer>
+</body>
+
+</html>
