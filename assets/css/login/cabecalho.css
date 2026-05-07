@@ -1,0 +1,29 @@
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+}
+
+.logo {
+    border: .1rem blue solid;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+    box-sizing: content-box;
+}
+
+.titulo {
+    flex: 1;
+    
+}
